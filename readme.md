@@ -1,1 +1,3 @@
-A lifetime ago I tried to teach myself front-end web design (in Dreamweaver no less! With *FLASH* oh lawd) This repo hosts the original proof of concept page and its relevant assets. A branch has been created that demonstrates the new, updated version using Bootstrap, with a bit more functionality.
+A lifetime ago I tried to teach myself front-end web design (in Dreamweaver no less! With *FLASH* oh lawd) This repo hosts the original proof of concept page and its relevant assets. A branch has been created that demonstrates the new, updated version using Bootstrap, with a bit more functionality. 
+
+Not too much though, let's not shoot for the moon here...
