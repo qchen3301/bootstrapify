@@ -1,0 +1,40 @@
+/*	Credit to Thorarinn Johannsson for his chromatic abberration effects -
+	https://codepen.io/thorthor/pen/Wxaprz?editors=1100	
+	text-shadow code, @keyframes codes are copyright Thorarinn Johannsson*/
+
+body {	
+	background: url("images/venus.png"); 
+	background-size: 100% 100%;
+	background-repeat: no-repeat;	}
+h1 {
+	
+	text-align: center;
+	margin-right: 340px;
+	text-shadow: 3px 2px 2px rgba(251, 12, 12,1), 0px -1px 3px rgba(12, 79, 251,.5),-3px 0px 2px rgba(52, 251, 12, 1);
+	animation: chromaticMove 4500ms ease infinite,pulse ease 200ms  infinite;}
+
+.twotutoo {
+	margin-right: 600px;
+}
+
+.txt-over-img {
+	font-family: "Consolas";
+	color: #ccffcc;
+	font-size: 24pt;
+	margin: 0 auto;
+	margin-top: -276px;
+	margin-right: 93px;
+	position: relative;
+	width: 60%;}
+
+@keyframes pulse { 
+    0%{ opacity:.9;transform: skewX(.5deg);}
+    25%{ opacity:1;}
+    50%{opacity:.9;}
+    75%{ opacity:1; transform:skewX(.5deg);}
+    100%{opacity:.9;}}
+
+@keyframes chromaticMove { 
+    0%{text-shadow: 3px 2px 2px rgba(251, 12, 12,1), 0px -1px 3px rgba(12, 79, 251,.5),0px 0px -2px rgba(52, 251, 12, 1);}
+    50%{text-shadow: 3px 2px 2px rgba(251, 12, 12,1), 0px -1px 3px rgba(12, 79, 251,.5),-3px 2px 3px rgba(52, 251, 12, 1);}
+    100%{text-shadow: 3px 2px 2px rgba(251, 12, 12,1), 0px -1px 3px rgba(12, 79, 251,.5),2px -1px 2px rgba(52, 251, 12, 1);}}
